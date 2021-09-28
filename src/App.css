@@ -39,11 +39,17 @@ ul {
 .game {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .game-info {
 	margin-left: 20px;
 }
+
+.game-info span {
+	margin-left: 5px;
+}
+
 .bold {
 	font-weight: bold;
 }

@@ -84,6 +84,7 @@ const Game = () => {
 			</div>
 			<div className='game-info'>
 				<button onClick={handleSortChange}>Sort steps order</button>
+				<span>{isAscending ? 'Ascending' : 'Descending'}</span>
 				{isDraw ? (
 					<div>Draw</div>
 				) : (
