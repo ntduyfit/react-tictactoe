@@ -1,6 +1,6 @@
 {
 	"name": "btcn01",
-	"homepage": "",
+	"homepage": "http://ntduyfit.github.io/react-tictactoe",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
