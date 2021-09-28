@@ -26,7 +26,7 @@ const History = (props) => {
 					: 'Go to game start';
 			return (
 				<li key={'move' + displayMove} className={displayMove === steps.current && 'bold'}>
-					<button onClick={() => jumpTo(move)}>{stepList}</button>
+					<button onClick={() => jumpTo(displayMove)}>{stepList}</button>
 				</li>
 			);
 		});
